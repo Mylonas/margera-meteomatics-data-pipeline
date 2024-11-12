@@ -1,0 +1,22 @@
+Background
+For this exercise, we will use the https://www.meteomatics.com/en/weather-api/API, which is an open API that provides weather forecasting information. Look at the endpoints location search for locations and location day for forecasts for a particular day for that location.
+
+Task
+- Create a program using your preferred language/tool to get the forecasts for any 3 locations and for a period of 7 days.
+- Store the data in a relational database of your choosing (MySQL, MS SQL, SQLite, etc.) with the appropriate schema.
+- Create an API that uses the database data and provides endpoints for the following:
+- List locations
+  - List the latest forecast for each location for every day
+  - List the average the_temp of the last 3 forecasts for each location for every day
+  - Get the top n locations based on each available metric where n is a parameter given to the API call.
+
+Deliverables
+- A zip/tar.gz file containing the full source code and any other resources including CSV exports of your tables and SQL queries.
+- Ideally deploy the solution to a cloud service (AWS, GCP, etc.)
+- Instructions for running the application and installing any dependencies
+- A short report (a few sentences is fine) outlining:
+  - What overall process you went through in completing the task
+  - Key decisions you made (if relevant). For example, known limitations.
+  - What slowed you down, what was unexpected
+  - Problems you ran into, and how you solved them
+  - Tools and techniques you used
